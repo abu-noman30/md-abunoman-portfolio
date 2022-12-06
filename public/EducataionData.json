@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Independent University, Bangladesh",
+    "image": "https://i.ibb.co/dkFhnWZ/67655949-2613142842063064-7753393555376177152-n.jpg",
+    "logo": "https://i.ibb.co/XWdBJGB/Independent-University-Bangladesh-logo.png",
+    "session": "2017-2022"
+  },
+  {
+    "id": "2",
+    "name": "Govt. Azizul Haque College, Bogura",
+    "image": "https://i.ibb.co/fMVmwLP/maxresdefault.jpg",
+    "logo": "https://i.ibb.co/1dp4Sjt/download-Edited-1.png",
+    "session": "2013-2015"
+  },
+  {
+    "id": "3",
+    "name": "Cantonment Public School & College, Bogura",
+    "image": "https://i.ibb.co/pKqW3X5/FB-IMG-16009484039768509-480x375.jpg",
+    "logo": "https://i.ibb.co/rvTSfsn/download-Edited.png",
+    "session": "2001-2013"
+  }
+]
