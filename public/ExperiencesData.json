@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "company": "Enzaime Limited.",
+    "image": "https://i.ibb.co/k8hSvQm/logo.png",
+    "employmentType": "Internship",
+    "companyType": "Software Development Company",
+    "location": "Mirpur, Dhaka, Bangladesh",
+    "timePeriod": "March 2022 - May 2022",
+    "skills": "JavaScript, ReactJs, NodeJs, ExpressJS, MongoDB",
+    "description": " I did 3 months of Internship in Enzaime Limited. I worked on a project named 'Doctor's Appointment & Prescription System'. It was a web application. I worked on the frontend part as well as backend part of the project. I used ReactJs, JavaScript, HTML, CSS, Bootstrap, NodeJs ExpressJS and MongoDB."
+  }
+]

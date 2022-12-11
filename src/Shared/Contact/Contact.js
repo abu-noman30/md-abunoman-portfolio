@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import toast from 'react-hot-toast';
 import * as FAIcons from 'react-icons/fa';
+import * as IMIcons from 'react-icons/im';
 
 const Contact = () => {
 	const form = useRef();
@@ -33,31 +34,41 @@ const Contact = () => {
 			<div className='contact-container text-white' id='contact-id'>
 				<section className='w-10/12 mx-auto '>
 					<div className='container py-12 mx-auto'>
-						<h1 className='text-3xl font-semibold text-white capitalize lg:text-4xl text-center drop-shadow-lg shadow-white'>
-							Contact Me
-						</h1>
+						<div className='flex flex-col items-center justify-center space-y-3 mb-8'>
+							<h1 className='text-3xl font-semibold text-white capitalize lg:text-4xl text-center drop-shadow-lg shadow-white'>
+								FIND ME ON
+							</h1>
+							<progress className='progress w-60 text-blue-500'></progress>
+						</div>
 						<div className='grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-6'>
-							<div className=' col-span-2 md:col-span-1 text-center lg:text-left'>
-								<div className='mt-6 space-y-8 md:mt-8 flex flex-col items-center md:items-start  '>
-									<p className='flex items-start '>
-										<span className=' text-white'>
-											Flat: A7, Plot: 19/12, Comprehensive Albim Palace, Block
-											B, Babar Road, Mohammadpur, Dhaka-1207.
+							<div className=' col-span-2 md:col-span-1 text-center lg:text-left y-96 my-auto'>
+								<div className='mt-6 space-y-8 md:mt-8 flex flex-col items-center md:items-start text-normal md:text-lg '>
+									<p className='flex items-start justify-center'>
+										<span className='mr-1 text-center'>
+											<IMIcons.ImLocation className='text-white' />
+										</span>
+										<span className=' text-white text-center md:text-center'>
+											Mohammadpur, Dhaka-1207, Bangladesh.
 										</span>
 									</p>
 
-									<p className='flex items-start '>
-										<span className=' text-white truncate w-72'>
-											+8801521309669
+									<p className='flex items-start justify-center '>
+										<span className='mr-2'>
+											<FAIcons.FaPhoneAlt />
 										</span>
+										<span className=' text-white'>+8801521309669</span>
 									</p>
 
-									<p className='flex items-start '>
+									<p className='flex items-start justify-center'>
 										<a
 											href='https://mail.google.com/mail/u/5/#inbox?compose=DmwnWsmCLdDMXhPdHrGskXQKqPlVgZXPbjHGkrTFlvPBDBGrNwqRxLCLcDMxcMvtCbCrQvbsJskq'
 											target='_blank'
 											rel='noreferrer'
+											className='flex justify-center '
 										>
+											<span className='mr-2'>
+												<FAIcons.FaMailBulk />
+											</span>
 											<span className=' text-white'>
 												md.abunoman1997@gmail.com
 											</span>
@@ -65,8 +76,8 @@ const Contact = () => {
 									</p>
 								</div>
 
-								<div className='mt-6 w-full md:mt-8'>
-									<div className='flex mt-4 items-center justify-center lg:justify-start gap-6 shadow-lg shadow-gray-600 w-52 p-3 rounded-full mx-auto md:ml-auto'>
+								<div className='mt-6 w-full md:mt-8 flex justify-center '>
+									<div className='flex mt-4 items-center lg:justify-start gap-6 shadow-lg shadow-gray-600 p-3 rounded-full md:mr-auto'>
 										<a
 											className='mx-1.5  border-2 rounded-full  text-white transition-colors duration-300 transform hover:text-blue-500'
 											href='https://www.facebook.com/AbuNoman30/'
@@ -134,7 +145,7 @@ const Contact = () => {
 										}}
 									>
 										<div className='flex-1'>
-											<label className='block mb-2 text-sm text-gray-600'>
+											<label className='block mb-2 text-sm text-gray-400'>
 												Full Name
 											</label>
 											<input
@@ -147,7 +158,7 @@ const Contact = () => {
 										</div>
 
 										<div className='flex-1'>
-											<label className='block mb-2 text-sm text-gray-600 '>
+											<label className='block mb-2 text-sm text-gray-400 my-2 '>
 												Email address
 											</label>
 											<input
@@ -160,7 +171,7 @@ const Contact = () => {
 										</div>
 
 										<div className='w-full mt-6'>
-											<label className='block mb-2 text-sm text-gray-600 '>
+											<label className='block mb-2 text-sm text-gray-400 '>
 												Message
 											</label>
 											<textarea
@@ -173,7 +184,7 @@ const Contact = () => {
 
 										<input
 											type='submit'
-											className='w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 btn glass bg-gray-800 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50'
+											className='w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 btn glass bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:ring focus:ring-gray-800 focus:ring-opacity-50'
 											value='Get in touch'
 										/>
 									</form>

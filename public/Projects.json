@@ -3,11 +3,7 @@
     "id": "1",
     "projectName": "Used Products Resale Market",
     "image": "https://i.ibb.co/8xZn1wn/carbazar.png",
-    "description": [
-      "Users view Category wise product details and order the product by payment. Also can report the product.",
-      "Sellers add their product, view their products , Admin manage Users, take action on Reported Items.",
-      "System is Fully Authenticate By Google Firebase Authentication"
-    ],
+    "description": "Users view Category wise product details and order the product by payment. Also can report the product. Sellers add their product, view their products , Admin manage Users, take action on Reported Items.",
     "tools": [
       "Html",
       "CSS",
@@ -28,19 +24,7 @@
     "id": "2",
     "projectName": "Plumber Service Provider",
     "image": "https://i.ibb.co/0VmCcPh/plumboy.png",
-    "description": [
-      "A web base application (ReactJs).",
-      "At Home page user find My Services section and from the recently Added services by clicking VIEW DETAILS user can see the Service Details and other users Reviews.",
-      "User can add their review for the specific Services by submitting Review form.But for that, user have to be Loged in,if the user is new user can register themselves.",
-      "At Home Page under the Services, by clicking See All button user find all the available services and user can post their reviews for all services.",
-      "If user is Loged in, user can view the all Reviews they already posted at My Reviews.",
-      "User can UPDATE and Can DELETE their reviews they already posted.",
-      "From Add Service page Admin of the system can post New Services.and It will show on the Home Page as well as All Services page.",
-      "System is Fully Authenticate By Google Firebase Authentication.",
-      "There are also Blog page. From there user can find Questions and Answers.",
-      "System is fully responsive.",
-      "All Data's are hosted on the database MongoDB and server side hosted on vercel."
-    ],
+    "description": "Users view available Services, Service Details, and other user's reviews for specific services.Users can add Service, Review for the Service,  Update and  Delete their reviews.",
     "tools": [
       "Html",
       "CSS",
@@ -61,19 +45,7 @@
     "id": "3",
     "projectName": "Learning Platform Website",
     "image": "https://i.ibb.co/Pt14VQS/edu-camp.png",
-    "description": [
-      "A web base application (ReactJs).",
-      "Users can visit the Courses page for find Available Courses.",
-      "On Selecting the specific course system will redirect to the Course Details Page.",
-      "At the Course Details Page user can Download the full Course Details as PDF Format.",
-      "By Selecting the Get Premium Access system will redirect the user to the Enrollment Page if the user is already Loged in, Other wise system will re direct the user to the Login Page.",
-      "If the user is not registered, then user can go to the Registration page by clicking signup for registration.",
-      "By clicking Profile icon user can view the profile details if the user is Loged in.",
-      "System is Fully Authenticate By Google Firebase Authentication.",
-      "There are also Blog and FAQ page. From there user can find related Questions about the website.",
-      "System is fully responsive.",
-      "All Data's are created and hosted on vercel."
-    ],
+    "description": "Users can view available Courses, Course Details and can download the Course details as PDF.For Enrollment Course, users have to log in. Enrollment is a separate protected route.",
     "tools": [
       "Html",
       "CSS",

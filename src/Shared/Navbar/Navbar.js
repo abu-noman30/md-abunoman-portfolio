@@ -27,21 +27,20 @@ const Navbar = () => {
 							</label>
 							<ul
 								tabIndex={0}
-								className='menu menu-compact dropdown-content mt-3 p-2 bg-base-100 rounded-lg shadow-lg shadow-gray-500 w-52'
+								className=' menu menu-compact dropdown-content mt-3 p-2 rounded-lg shadow-lg shadow-gray-500 w-52 bg-gradient-to-r from-blue-600 to-black '
 							>
 								<NavLink
-									to=''
-									className='btn glass normal-case text-lg  text-white '
+									to='/'
+									className='btn m-1 glass normal-case text-lg  text-white '
 								>
 									<li>HOME</li>
 								</NavLink>
 								<hr />
-
 								<NavLink
-									to=''
-									className='btn glass normal-case text-lg  text-white'
+									to='/blog'
+									className='btn m-1 glass normal-case text-lg  text-white '
 								>
-									<li>BLOGS</li>
+									<li>BLOG</li>
 								</NavLink>
 							</ul>
 						</div>
@@ -62,17 +61,10 @@ const Navbar = () => {
 							</NavLink>
 
 							<NavLink
-								to='/all-projects'
-								className='btn glass normal-case text-lg text-white border-2 border-white rounded-lg px-4 py-2 hover:bg-zinc-500 hover:text-white transition duration-500 ease-in-out mx-5'
+								to='/blog'
+								className='btn glass normal-case text-lg text-white border-2 border-white rounded-lg px-4 py-2 hover:bg-zinc-500 hover:text-white transition duration-500 ease-in-out ml-5'
 							>
-								<li>PROJECTS</li>
-							</NavLink>
-
-							<NavLink
-								to=''
-								className='btn glass normal-case text-lg  text-white border-2 border-white rounded-lg px-4 py-2 hover:bg-zinc-500 hover:text-white transition duration-500 ease-in-out'
-							>
-								<li>BLOGS</li>
+								<li>BLOG</li>
 							</NavLink>
 						</ul>
 					</div>

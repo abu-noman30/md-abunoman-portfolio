@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
-import ProjectDetails from '../Components/ProjectDetails/ProjectDetails';
 import Root from '../Layouts/Root/Root';
+import Blog from '../Pages/Blog/Blog';
 import Home from '../Pages/Home/Home';
-import Project from '../Shared/Project/Project';
+import ProjectDetails from '../Pages/ProjectDetails/ProjectDetails';
 
 const router = createBrowserRouter([
 	{
@@ -18,8 +18,17 @@ const router = createBrowserRouter([
 				element: <Home />
 			},
 			{
-				path: 'all-projects',
-				element: <Project />
+				path: 'projects/:id',
+				element: <ProjectDetails />,
+				loader: async ({ params }) => {
+					return await fetch(
+						`https://server-md-abunoman-portfolio.vercel.app/projects/${params.id}`
+					);
+				}
+			},
+			{
+				path: 'blog',
+				element: <Blog />
 			}
 		]
 	}

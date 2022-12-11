@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Contact from '../../Shared/Contact/Contact';
 import Navbar from '../../Shared/Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Root = () => {
 	return (
@@ -9,16 +9,17 @@ const Root = () => {
 			{/* Root Container */}
 			<div className='root-container'>
 				{/* Navbar Section */}
-				<section className='navbar-section'>
+				<section className='navbar-section' id='home-id'>
 					<Navbar />
 				</section>
 				{/* Outlet Section */}
 				<section className='outlet-section'>
 					<Outlet />
 				</section>
-				{/* Contact Section */}
-				<section className='contact-section'>
-					<Contact />
+
+				{/* Footer Section */}
+				<section className='footr-section'>
+					<Footer />
 				</section>
 			</div>
 		</>

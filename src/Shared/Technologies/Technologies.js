@@ -7,9 +7,11 @@ const Technologies = () => {
 	return (
 		<>
 			{/* Technologies Container */}
-			<div className='technologies-container p-4'>
-				<h1>Technologies</h1>
-				<ul className='flex flex-wrap gap-5'>
+			<div className='technologies-container'>
+				<h1 className=' text-2xl font-bold underline underline-offset-2 mb-5 text-center'>
+					Technologies{' '}
+				</h1>
+				<ul className='flex flex-wrap gap-5 justify-evenly space-y-2 '>
 					<li className='flex flex-col items-center justify-center'>
 						<AIIcons.AiFillHtml5 className='w-12 h-12 text-gray-400 hover:text-gray-600' />
 						<div>

@@ -6,7 +6,7 @@ const SingleEducation = (props) => {
 	return (
 		<>
 			{/* Single Education Container */}
-			<div className='single-education-container shadow-lg rounded-lg shadow-black'>
+			<div className='single-education-container shadow-lg rounded-lg shadow-gray-900'>
 				<div className='w-full  mx-auto overflow-hidden rounded-lg shadow-lg'>
 					<div className='h-40 bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-600'>
 						<div className='flex justify-center'>
