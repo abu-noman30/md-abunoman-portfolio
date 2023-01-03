@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData, useLocation } from 'react-router-dom';
 
 const ProjectDetails = () => {
+	window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
 	const loaderData = useLoaderData();
 	console.log(loaderData);
 	const location = useLocation();

@@ -61,9 +61,9 @@ const Contact = () => {
 
 									<p className='flex items-start justify-center'>
 										<a
-											href='https://mail.google.com/mail/u/5/#inbox?compose=DmwnWsmCLdDMXhPdHrGskXQKqPlVgZXPbjHGkrTFlvPBDBGrNwqRxLCLcDMxcMvtCbCrQvbsJskq'
+											href='mailto:md.abunoman1997@gmail.com'
 											target='_blank'
-											rel='noreferrer'
+											rel='noopener noreferrer'
 											className='flex justify-center '
 										>
 											<span className='mr-2'>

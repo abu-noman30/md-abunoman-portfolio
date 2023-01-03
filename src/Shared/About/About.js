@@ -19,11 +19,11 @@ const About = () => {
 						<div className='avatar w-48 rounded ring ring-primary ring-offset-base-100 ring-offset-2 mt-8 '>
 							<img src='Images/Noman(5).jpg' alt='' />
 						</div>
-						<h1 className='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-xl lg:text-5xl font-extrabold text-transparent  my-5 text-center'>
+						<h1 className='bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-2xl lg:text-5xl font-extrabold text-transparent  my-5 text-center'>
 							MD. ABU NOMAN
 						</h1>
 					</div>
-					<div className='avatar col-span-2 lg:col-span-1  flex flex-col italic pt-6'>
+					<div className='avatar col-span-2 lg:col-span-1  flex flex-col italic pt-6 -mt-8 lg:mt-0 '>
 						<div className='  space-y-2'>
 							<p className='text-zinc-300'>
 								<span className=' text-white font-bold underline underline-offset-2  '>
@@ -63,7 +63,7 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<div className='avatar col-span-2 lg:col-span-1 -mt-2 lg:mt-0'>
+					<div className='avatar col-span-2 lg:col-span-1 -mt-8 lg:mt-0'>
 						<blockquote>
 							<span className='text-lg italic font-serif text-zinc-400'>
 								Working with Full Stack Web Development(MERN) to build Websites
