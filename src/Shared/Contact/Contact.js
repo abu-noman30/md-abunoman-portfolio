@@ -31,7 +31,7 @@ const Contact = () => {
 	return (
 		<>
 			{/* Contact Container */}
-			<div className='contact-container text-white' id='contact-id'>
+			<div className='contact-container text-white' id='contact'>
 				<section className='w-10/12 mx-auto '>
 					<div className='container py-12 mx-auto'>
 						<div className='flex flex-col items-center justify-center space-y-3 mb-8'>

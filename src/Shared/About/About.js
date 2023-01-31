@@ -4,7 +4,7 @@ const About = () => {
 	return (
 		<>
 			{/* About Container */}
-			<div className='about-container w-10/12 mx-auto mb-16 '>
+			<div className='about-container w-10/12 mx-auto mb-16 ' id='aboutme'>
 				<div className='flex flex-col items-center justify-center space-y-3 mb-10'>
 					<h1 className='text-3xl font-semibold text-white capitalize lg:text-4xl text-center drop-shadow-lg shadow-white'>
 						LET ME INTRODUCE MYSELF

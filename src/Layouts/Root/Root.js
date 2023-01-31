@@ -9,7 +9,7 @@ const Root = () => {
 			{/* Root Container */}
 			<div className='root-container'>
 				{/* Navbar Section */}
-				<section className='navbar-section' id='home-id'>
+				<section className='navbar-section' id='home'>
 					<Navbar />
 				</section>
 				{/* Outlet Section */}

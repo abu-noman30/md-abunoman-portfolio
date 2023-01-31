@@ -50,7 +50,7 @@ const Home = () => {
 					<WorkExperience />
 				</section>
 				{/* Projects Section */}
-				<section className='projects-conteion' id='projects-id'>
+				<section className='projects-conteion' id='projects'>
 					<Project />
 				</section>
 				{/* Contact Section */}

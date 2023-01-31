@@ -3,7 +3,11 @@
     "id": "1",
     "projectName": "Used Products Resale Market",
     "image": "https://i.ibb.co/8xZn1wn/carbazar.png",
-    "description": "Users view Category wise product details and order the product by payment. Also can report the product. Sellers add their product, view their products , Admin manage Users, take action on Reported Items.",
+    "description": [
+      "Users view Category wise product details and order the product by payment. Also can report the product.",
+      "Sellers add their product, view their products , Admin manage Users, take action on Reported Items.",
+      "System is Fully Authenticate By Google Firebase Authentication"
+    ],
     "tools": [
       "Html",
       "CSS",
@@ -24,7 +28,19 @@
     "id": "2",
     "projectName": "Plumber Service Provider",
     "image": "https://i.ibb.co/0VmCcPh/plumboy.png",
-    "description": "Users view available Services, Service Details, and other user's reviews for specific services.Users can add Service, Review for the Service,  Update and  Delete their reviews.",
+    "description": [
+      "A web base application (ReactJs).",
+      "At Home page user find My Services section and from the recently Added services by clicking VIEW DETAILS user can see the Service Details and other users Reviews.",
+      "User can add their review for the specific Services by submitting Review form.But for that, user have to be Loged in,if the user is new user can register themselves.",
+      "At Home Page under the Services, by clicking See All button user find all the available services and user can post their reviews for all services.",
+      "If user is Loged in, user can view the all Reviews they already posted at My Reviews.",
+      "User can UPDATE and Can DELETE their reviews they already posted.",
+      "From Add Service page Admin of the system can post New Services.and It will show on the Home Page as well as All Services page.",
+      "System is Fully Authenticate By Google Firebase Authentication.",
+      "There are also Blog page. From there user can find Questions and Answers.",
+      "System is fully responsive.",
+      "All Data's are hosted on the database MongoDB and server side hosted on vercel."
+    ],
     "tools": [
       "Html",
       "CSS",
@@ -45,7 +61,19 @@
     "id": "3",
     "projectName": "Learning Platform Website",
     "image": "https://i.ibb.co/Pt14VQS/edu-camp.png",
-    "description": "Users can view available Courses, Course Details and can download the Course details as PDF.For Enrollment Course, users have to log in. Enrollment is a separate protected route.",
+    "description": [
+      "A web base application (ReactJs).",
+      "Users can visit the Courses page for find Available Courses.",
+      "On Selecting the specific course system will redirect to the Course Details Page.",
+      "At the Course Details Page user can Download the full Course Details as PDF Format.",
+      "By Selecting the Get Premium Access system will redirect the user to the Enrollment Page if the user is already Loged in, Other wise system will re direct the user to the Login Page.",
+      "If the user is not registered, then user can go to the Registration page by clicking signup for registration.",
+      "By clicking Profile icon user can view the profile details if the user is Loged in.",
+      "System is Fully Authenticate By Google Firebase Authentication.",
+      "There are also Blog and FAQ page. From there user can find related Questions about the website.",
+      "System is fully responsive.",
+      "All Data's are created and hosted on vercel."
+    ],
     "tools": [
       "Html",
       "CSS",
@@ -61,5 +89,117 @@
     "liveLink": "https://reactjs-edu-camp-auth-app.web.app/",
     "clientCode": "https://github.com/abu-noman30/client-edu-camp-reactjs",
     "serverCode": "https://github.com/abu-noman30/server-edu-camp-reactjs"
+  },
+  {
+    "id": "4",
+    "projectName": "Quiz App",
+    "image": "https://i.ibb.co/jLRsSmT/quizapp.png",
+    "description": [
+      "A web base application (ReactJs).",
+      "Users can attened the quizes base on select Topics.",
+      "At Quiz page for the wrong answer, system will show the answer is Incorrect!, and for right answer it will show, Answer is Correct!.",
+      "At Statistics page system will show the topic Wise Total Question's Graph Chart.",
+      "At Blog Page, system will show some Questions and related Answers."
+    ],
+    "tools": [
+      "Html",
+      "CSS",
+      "React",
+      "TailwindCSS",
+      "Daisyui",
+      "JS",
+      "ES6",
+      "ReactJS",
+      "React Hooks",
+      "React Router",
+      "Recharts"
+    ],
+    "liveLink": "https://starlit-trifle-d70cfc.netlify.app/",
+    "clientCode": "https://github.com/abu-noman30/reactjs-mega-quiz-app"
+  },
+  {
+    "id": "5",
+    "projectName": "Yoga Activity App",
+    "image": "https://i.ibb.co/Q6ZW2MP/yogo.png",
+    "description": [
+      "A web base application (ReactJs).",
+      "Users can add time limit for every yogas",
+      "User also set the break time, after every yoga",
+      "Time data will be set into the local Storage of the browser"
+    ],
+    "tools": [
+      "Html",
+      "CSS",
+      "React",
+      "TailwindCSS",
+      "Daisyui",
+      "JS",
+      "ES6",
+      "ReactJS",
+      "React Hooks",
+      "React Router",
+      "Recharts"
+    ],
+    "liveLink": "https://ubiquitous-croissant-2d44d6.netlify.app/",
+    "clientCode": "https://github.com/abu-noman30/yoga-activity-club-reactjs"
+  },
+  {
+    "id": "6",
+    "projectName": "News247 Website",
+    "image": "https://i.ibb.co/HdGvqHy/news1.png",
+    "description": [
+      "A web base application (JavaScript).",
+      "Users can see the news based on most users view. ",
+      "News are shown in the card format.",
+      "News are divided into different categories.",
+      "Also users can view the news details by clicking the arrow button."
+    ],
+    "tools": ["Html", "CSS", "TailwindCSS", "JavaScript", "ES6"],
+    "liveLink": "https://js-news-247-dynamic-website.netlify.app/",
+    "clientCode": "https://github.com/abu-noman30/js-news-247-dymamic"
+  },
+  {
+    "id": "7",
+    "projectName": "Speed Typer ",
+    "image": "https://i.ibb.co/t8B9DQd/type.png",
+    "description": [
+      "A web base application (JavaScript).",
+      "Website was already created by the instructor. But there was  bugs in the code. So I fixed the bugs and added some new features.It was a DEBUGGING task. ",
+      "Users can type the given words.",
+      "Users can see the time and accuracy.",
+      "User can see the previous typed History."
+    ],
+    "tools": ["Html", "CSS", "JavaScript", "ES6", "Chrome Dev Tools"],
+    "liveLink": "https://type-monster-debug-assignment-noman.netlify.app/",
+    "clientCode": "https://github.com/abu-noman30/debug-typing-test-app-dom"
+  },
+  {
+    "id": "8",
+    "projectName": "Select Top 5",
+    "image": "https://i.ibb.co/6mTgB3G/00psg.png",
+    "description": [
+      "A web base application (JavaScript).",
+      "User Can choose the team from the dropdown list.",
+      "User can see the top 5 players of the selected team.",
+      "User can calculate the total salary of the selected team."
+    ],
+    "tools": ["Html", "CSS", "JavaScript", "ES6"],
+    "liveLink": "https://best-five-player-dom-assignment.netlify.app/",
+    "clientCode": "https://github.com/abu-noman30/best-five-player-dom"
+  },
+  {
+    "id": "9",
+    "projectName": "Conventional Center",
+    "image": "https://i.ibb.co/dp0vxxV/convension.png",
+    "description": [
+      "A web base application (Bootstrap).",
+      "This is a static website.",
+      "This website is created for a Conventional Center.",
+      "This website is created by using HTML, CSS, Bootstrap.",
+      "This website is responsive."
+    ],
+    "tools": ["Html", "CSS", "Bootstrap"],
+    "liveLink": "https://bejewelled-malasada-0932ea.netlify.app/",
+    "clientCode": "https://github.com/abu-noman30/convention-center-web"
   }
 ]

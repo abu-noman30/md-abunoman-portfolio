@@ -9,7 +9,7 @@ const BottomNavigation = () => {
 			<div className='bottom-navigation-container text-white '>
 				<div className='btn-ghost btm-nav  btm-nav-sm w-12 h-[12rem] ml-auto rounded-full shadow-lg flex flex-col items-center justify-around mb-16 py-2'>
 					<a
-						href='#home-id'
+						href='#home'
 						className='glass py-5 px-2 hover:shadow-lg hover:shadow-black w-full rounded-t-full'
 					>
 						<svg
@@ -29,7 +29,7 @@ const BottomNavigation = () => {
 						<span className='btm-nav-label'>Home</span>
 					</a>
 					<a
-						href='#aboutme-id'
+						href='#aboutme'
 						className='glass py-5 px-2 hover:shadow-lg hover:shadow-black w-full '
 					>
 						<div>
@@ -38,7 +38,7 @@ const BottomNavigation = () => {
 						<span className='btm-nav-label'>About</span>
 					</a>
 					<a
-						href='#projects-id'
+						href='#projects'
 						className='glass py-5 px-2 hover:shadow-lg hover:shadow-black w-full '
 					>
 						<div>
@@ -47,7 +47,7 @@ const BottomNavigation = () => {
 						<span className='btm-nav-label'>Project</span>
 					</a>
 					<a
-						href='#contact-id'
+						href='#contact'
 						className='glass py-5 px-2 hover:shadow-lg hover:shadow-black w-full rounded-b-full'
 					>
 						<div>

@@ -30,7 +30,7 @@ const ProjectDetails = () => {
 	return (
 		<>
 			{/* Project Details Conainer */}
-			<div className='project-details-container mb-20'>
+			<div className='project-details-container min-h-[42rem]'>
 				<div className='mx-auto  w-10/12'>
 					<div className='mx-auto max-w-2xl lg:max-w-none grid grid-cols-2 gap-8 mt-5'>
 						{/* Project Pictures */}
@@ -65,22 +65,27 @@ const ProjectDetails = () => {
 									>
 										Live site
 									</a>
-									<a
-										href={clientCode}
-										target='_blank'
-										className=' btn glass btn-xs lg:btn-sm mx-4 hover:bg-gray-900 bg-slate-900 text-white '
-										rel='noreferrer'
-									>
-										Client
-									</a>
-									<a
-										href={serverCode}
-										target='_blank'
-										className=' btn glass btn-xs lg:btn-sm  hover:bg-gray-900 bg-slate-900 text-white '
-										rel='noreferrer'
-									>
-										Server
-									</a>
+									{clientCode && (
+										<a
+											href={clientCode}
+											target='_blank'
+											className=' btn glass btn-xs lg:btn-sm mx-4 hover:bg-gray-900 bg-slate-900 text-white '
+											rel='noreferrer'
+										>
+											Client
+										</a>
+									)}
+
+									{serverCode && (
+										<a
+											href={serverCode}
+											target='_blank'
+											className=' btn glass btn-xs lg:btn-sm  hover:bg-gray-900 bg-slate-900 text-white '
+											rel='noreferrer'
+										>
+											Server
+										</a>
+									)}
 								</div>
 							</div>
 						</div>

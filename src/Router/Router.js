@@ -21,9 +21,7 @@ const router = createBrowserRouter([
 				path: 'projects/:id',
 				element: <ProjectDetails />,
 				loader: async ({ params }) => {
-					return await fetch(
-						`https://server-md-abunoman-portfolio.vercel.app/projects/${params.id}`
-					);
+					return await fetch(`http://localhost:5000/projects/${params.id}`);
 				}
 			},
 			{
